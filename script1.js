@@ -32,19 +32,11 @@
 // document.write(result);
 // document.write(linebreak);
 
-// var count;
-// document.write("Starting loop"+"<br/>");
-// for(count=0; count<10; count++){
-//     document.write("Current count:"+count);
-//         document.write("<br/>");
-    
-// }
-// document.write("Loop stopped");
 
 
 const person = {
     fname:"Ajay",
-    iname:"Singh",
+    lname:"Singh",
     age:25
 }
 for(let x in person){
