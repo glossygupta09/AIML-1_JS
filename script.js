@@ -30,3 +30,7 @@ document.write("a+b+c=");
 result = a+b+c;
 document.write(result);
 document.write(linebreak);
+
+
+
+
