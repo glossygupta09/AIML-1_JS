@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Basic</title>
+    <link rel="stylesheet" href="exp2.css">
+</head>
+<body>
+    <div>
+    <h1>Employee Salary Management System</h1>
+    <form action="#">
+        <input type="text" id="name" placeholder="employee name">
+        <input type="text" id="id" placeholder="employee id"> 
+        <input type="number" id="salary" placeholder="employee salary"> 
+        <input type="text" id="dept" placeholder="department">
+    </form>
+    <button onclick="addEmployee()">Add employee</button>
+     <button onclick="displayEmployees()">Display employees</button>
+      <button onclick="averageSalary()">Average Salary</button>
+    <button onclick="filterSalary()">Salary</button>
+    <button onclick="countByDepartment()">Count Departments</button>
+    <button onclick="totalSalary()">Total Salary</button>
+     <div id="result"></div>
+     </div>
+    <script src="./exp2.js"></script>
+</body>
+</html>
