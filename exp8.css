@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.outer-box{
+    border: 2px solid black;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    width: 220px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 auto 10px;
+    font-size: 18px;
+}
